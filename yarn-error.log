@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/Cellar/node/8.2.1/bin/node /usr/local/Cellar/yarn/0.27.5_1/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.2.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "slacktwitterbot",
+    "version": "1.0.0",
+    "description": "Integration slack bot api with twitter",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Brian Koey",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.17.2",
+      "eslint": "^4.4.1",
+      "eslint-config-airbnb": "^14.1.0",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^4.0.0",
+      "eslint-plugin-react": "^6.9.0",
+      "express": "^4.15.3",
+      "http": "^0.0.0",
+      "lodash": "^4.17.4",
+      "nodemon": "^1.11.0",
+    },
+    "devDependencies": {
+      "babel-cli": "^6.24.1",
+      "babel-preset-env": "^1.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/brian koey/Desktop/personal/projects/SlackTwitterBot/package.json: Unexpected token } in JSON at position 588
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:747:57
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:91:30)
+      at /usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:102:13
+      at <anonymous>
